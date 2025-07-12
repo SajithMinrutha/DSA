@@ -15,6 +15,8 @@ class Program
 
     {
         //DSA
+
+        //Data Structures
         string stack = StacksMain.StacksExample();
         string queue = QueuesMain.QueuesExample();
         string priorityQueue = PriorityQueuesMain.PriorityQueuesExample();
