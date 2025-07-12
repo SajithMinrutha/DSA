@@ -6,11 +6,9 @@
 // Worst Case: O(n) (target not found or at last position)
 // Average Case: O(n)
 
-using System.Collections.Generic;
 using LinkedListD;
-namespace LinearSearch
+namespace LinearSearch;
 
-{
     class LinearSearchMain
     {
 
@@ -27,17 +25,18 @@ namespace LinearSearch
             var LinkedList = LinkedListDMain.stringLinkedList;
             var currentNode = LinkedList.First;
 
+            //search for the target
             for (int i = 0; i <= LinkedList.Count && currentNode != null; i++)
             {
                 if (currentNode.Value == target)
                 {
                     return $"Found '{target}' at index {i}";
                 }
+                //move to the next node
                 currentNode = currentNode.Next;
             }
             return $"Item '{target}' not found";
         }
     }
-}
 
 
