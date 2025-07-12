@@ -3,6 +3,7 @@ using System;
 using Stacks;
 using Queues;
 using PriorityQueues;
+using LinkedListS;
 
 namespace DSA;
 
@@ -14,6 +15,7 @@ class Program
         string Stack = StacksMain.StacksExample();
         string Queue = QueuesMain.QueuesExample();
         string priorityQueue = PriorityQueuesMain.PriorityQueuesExample();
-        Console.WriteLine(priorityQueue);
+        string LinkedListS = LinkedListSMain.LinkedListExample();
+        Console.WriteLine(LinkedListS);
     }
 }
