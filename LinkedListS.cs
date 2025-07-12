@@ -17,11 +17,13 @@
 // Search: O(n)
 // Traverse: O(n)
 
-
 namespace LinkedListS
 {
     public class LinkedListSMain
     {
+        // Head of the linked list
+        private LinkedListNode? head = null;
+
         public class LinkedListNode
         {
             public int data;
@@ -34,20 +36,18 @@ namespace LinkedListS
             }
         }
 
-        public static string LinkedListExample()
+        // Insert new node at the front (head)
+        public void InsertAtHead(int value)
         {
-            // Create nodes
-            LinkedListNode node1 = new LinkedListNode(10);
-            LinkedListNode node2 = new LinkedListNode(20);
-            LinkedListNode node3 = new LinkedListNode(30);
+            LinkedListNode newNode = new LinkedListNode(value);
+            newNode.next = head;  // Point new node's next to current head
+            head = newNode;       // Update head to new node
+        }
 
-            // Link nodes
-            node1.next = node2;
-            node2.next = node3;
-            node3.next = null;  // last node
-
-            // Traverse list to build output string
-            LinkedListNode? current = node1;
+        // Traverse list and build string representation
+        public string Traverse()
+        {
+            LinkedListNode? current = head;
             string output = "";
             while (current != null)
             {
@@ -55,8 +55,19 @@ namespace LinkedListS
                 current = current.next;
             }
             output += "null";
-
             return output;
+        }
+
+        // Example usage
+        public static string LinkedListExample()
+        {
+            LinkedListSMain list = new LinkedListSMain();
+
+            list.InsertAtHead(10);  // List: 10 -> null
+            list.InsertAtHead(20);  // List: 20 -> 10 -> null
+            list.InsertAtHead(30);  // List: 30 -> 20 -> 10 -> null
+
+            return list.Traverse();
         }
     }
 }

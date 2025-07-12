@@ -1,9 +1,11 @@
-﻿
-using System;
+﻿using System;
 using Stacks;
 using Queues;
 using PriorityQueues;
 using LinkedListS;
+using LinkedListD;
+using DynamicArray;
+using Array;
 
 namespace DSA;
 
@@ -12,10 +14,15 @@ class Program
     static void Main(string[] args)
 
     {
-        string Stack = StacksMain.StacksExample();
-        string Queue = QueuesMain.QueuesExample();
+        //DSA
+        string stack = StacksMain.StacksExample();
+        string queue = QueuesMain.QueuesExample();
         string priorityQueue = PriorityQueuesMain.PriorityQueuesExample();
-        string LinkedListS = LinkedListSMain.LinkedListExample();
-        Console.WriteLine(LinkedListS);
+        string linkedListS = LinkedListSMain.LinkedListExample();
+        string linkedListD = LinkedListDMain.LinkedListDExample();
+        string array = ArrayMain.ArrayExample();
+        string dynamicArray = DynamicArrayMain.DynamicArrayExample();
+
+        Console.WriteLine(array);
     }
 }
