@@ -2,6 +2,7 @@
 using System;
 using Stacks;
 using Queues;
+using PriorityQueues;
 
 namespace DSA;
 
@@ -12,6 +13,7 @@ class Program
     {
         string Stack = StacksMain.StacksExample();
         string Queue = QueuesMain.QueuesExample();
-        Console.WriteLine(Queue);
+        string priorityQueue = PriorityQueuesMain.PriorityQueuesExample();
+        Console.WriteLine(priorityQueue);
     }
 }
