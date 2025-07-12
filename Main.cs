@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Data Structures
+using System;
 using Stacks;
 using Queues;
 using PriorityQueues;
@@ -6,6 +7,9 @@ using LinkedListS;
 using LinkedListD;
 using DynamicArray;
 using Array;
+
+//Algorithms
+using LinearSearch;
 
 namespace DSA;
 
@@ -25,6 +29,9 @@ class Program
         string array = ArrayMain.ArrayExample();
         string dynamicArray = DynamicArrayMain.DynamicArrayExample();
 
-        Console.WriteLine(array);
+        //Algorithms
+        string LinearSearch = LinearSearchMain.LinearSearchExample();
+
+        Console.WriteLine(LinearSearch);
     }
 }

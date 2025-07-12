@@ -26,10 +26,10 @@ namespace LinkedListD;
 
 public class LinkedListDMain
 {
+    public static LinkedList<string> stringLinkedList = new LinkedList<string>();
     public static string LinkedListDExample()
     {
-        LinkedList<string> stringLinkedList = new LinkedList<string>();
-
+       
         // Insert at head (AddFirst)
         stringLinkedList.AddFirst("Node 1");
         stringLinkedList.AddFirst("Node 2");
