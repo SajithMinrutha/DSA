@@ -1,0 +1,14 @@
+/Users/minrutha/Documents/CODING2025/C#/DSA/bin/Debug/net9.0/DSA
+/Users/minrutha/Documents/CODING2025/C#/DSA/bin/Debug/net9.0/DSA.deps.json
+/Users/minrutha/Documents/CODING2025/C#/DSA/bin/Debug/net9.0/DSA.runtimeconfig.json
+/Users/minrutha/Documents/CODING2025/C#/DSA/bin/Debug/net9.0/DSA.dll
+/Users/minrutha/Documents/CODING2025/C#/DSA/bin/Debug/net9.0/DSA.pdb
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/DSA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/DSA.AssemblyInfoInputs.cache
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/DSA.AssemblyInfo.cs
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/DSA.csproj.CoreCompileInputs.cache
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/DSA.dll
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/refint/DSA.dll
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/DSA.pdb
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/DSA.genruntimeconfig.cache
+/Users/minrutha/Documents/CODING2025/C#/DSA/obj/Debug/net9.0/ref/DSA.dll
