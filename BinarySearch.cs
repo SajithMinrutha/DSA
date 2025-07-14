@@ -22,6 +22,7 @@ public class BinarySearchMain
         var dynamicArray = DynamicArrayMain.intDynamicArray;
         int item = 10;
         string searchResults = Search(item , dynamicArray);
+
         return searchResults;
     }
 
@@ -47,17 +48,17 @@ public class BinarySearchMain
 
             else if (array[mid] < item)
             {
-                low = mid + 1; //set the upper part
+                low = mid + 1; //set the lower limit
 
             }
             else
             {
-                high = mid - 1; //set the lower part
+                high = mid - 1; //set the upper limit
             }
 
 
         }
-         return "Not Found";
+         return "Item Not Found";
 
         
     }

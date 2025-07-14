@@ -11,6 +11,7 @@ using Array;
 //Algorithms
 using LinearSearch;
 using BinarySearch;
+using InterpolationSearch;
 
 namespace DSA;
 
@@ -33,7 +34,8 @@ class Program
         //Algorithms
         string linearSearch = LinearSearchMain.LinearSearchExample();
         string binarySearch = BinarySearchMain.BinarySearchExample();
+        string interpolationSearch = InterpolationSearchMain.InterpolationSearchExample();
 
-        Console.WriteLine(binarySearch);
+        Console.WriteLine(interpolationSearch);
     }
 }
