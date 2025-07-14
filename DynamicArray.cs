@@ -33,13 +33,13 @@ public class DynamicArrayMain
         intDynamicArray.Add(10);
         intDynamicArray.Add(20);
         intDynamicArray.Add(30);
+        intDynamicArray.Add(40);
         intDynamicArray.Add(50);
-        intDynamicArray.Add(100);
-        intDynamicArray.Add(120);
-        intDynamicArray.Add(140);
+        intDynamicArray.Add(60);
+        intDynamicArray.Add(70);
 
         // Insert at specific index
-        intDynamicArray.Insert(1, 15); // List: 10, 15, 20, 30
+        intDynamicArray.Insert(1, 20); // List: 10, 15, 20, 30
 
         // Remove element by value
         intDynamicArray.Remove(20);    // List: 10, 15, 30
