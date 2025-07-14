@@ -24,28 +24,33 @@ namespace DynamicArray;
 
 public class DynamicArrayMain
 {
+    public static List<int> intDynamicArray = new List<int>();
     public static string DynamicArrayExample()
     {
-        List<int> stringDynamicArray = new List<int>();
+
 
         // Insert elements
-        stringDynamicArray.Add(10);
-        stringDynamicArray.Add(20);
-        stringDynamicArray.Add(30);
+        intDynamicArray.Add(10);
+        intDynamicArray.Add(20);
+        intDynamicArray.Add(30);
+        intDynamicArray.Add(50);
+        intDynamicArray.Add(100);
+        intDynamicArray.Add(120);
+        intDynamicArray.Add(140);
 
         // Insert at specific index
-        stringDynamicArray.Insert(1, 15); // List: 10, 15, 20, 30
+        intDynamicArray.Insert(1, 15); // List: 10, 15, 20, 30
 
         // Remove element by value
-        stringDynamicArray.Remove(20);    // List: 10, 15, 30
+        intDynamicArray.Remove(20);    // List: 10, 15, 30
 
         // Access by index
-        int valueAtIndex2 = stringDynamicArray[2]; // 30
+        int valueAtIndex2 = intDynamicArray[2]; // 30
 
         // Search for element
-        bool contains15 = stringDynamicArray.Contains(15); // true
+        bool contains15 = intDynamicArray.Contains(15); // true
 
-        return $"List contents: {string.Join(", ", stringDynamicArray)}\n" +
+        return $"List contents: {string.Join(", ", intDynamicArray)}\n" +
                $"Element at index 2: {valueAtIndex2}\n" +
                $"Contains 15? {contains15}";
     }

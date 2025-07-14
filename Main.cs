@@ -10,6 +10,7 @@ using Array;
 
 //Algorithms
 using LinearSearch;
+using BinarySearch;
 
 namespace DSA;
 
@@ -30,8 +31,9 @@ class Program
         string dynamicArray = DynamicArrayMain.DynamicArrayExample();
 
         //Algorithms
-        string LinearSearch = LinearSearchMain.LinearSearchExample();
+        string linearSearch = LinearSearchMain.LinearSearchExample();
+        string binarySearch = BinarySearchMain.BinarySearchExample();
 
-        Console.WriteLine(LinearSearch);
+        Console.WriteLine(binarySearch);
     }
 }

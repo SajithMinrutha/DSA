@@ -9,13 +9,57 @@
 // Average Case: O(log n)
 
 
+using System.Collections.Generic;
+using DynamicArray;
+
 namespace BinarySearch;
 
 public class BinarySearchMain
 {
+
     public static string BinarySearchExample()
     {
-        return "";
+        var dynamicArray = DynamicArrayMain.intDynamicArray;
+        int item = 10;
+        string searchResults = Search(item , dynamicArray);
+        return searchResults;
+    }
+
+    public static string Search(int item, List<int> dynamicArray)
+    {
+        var array = dynamicArray;
+        int length = array.Count;
+
+        int high = length - 1;
+        int low = 0;
+
+
+
+        while (low <= high)
+        {
+            int mid = low + (high - low) / 2; //to avoid overflow
+
+            if (array[mid] == item)
+            {
+                return $"{item} Found at Index {mid}";
+
+            }
+
+            else if (array[mid] < item)
+            {
+                low = mid + 1; //set the upper part
+
+            }
+            else
+            {
+                high = mid - 1; //set the lower part
+            }
+
+
+        }
+         return "Not Found";
+
+        
     }
 
 }
