@@ -12,9 +12,10 @@ namespace BubbleSort
 {
     public class BubbleSortMain
     {
+       public static List<int> array = new List<int> { 10, 20, 3, 5, 34, 22, 15 };
         public static string BubbleSortExample()
         {
-            List<int> array = new List<int> { 10, 20, 3, 5, 34, 22, 15 };
+
             string beforeSorted = string.Join(",", array);
             for (int i = 0; i < array.Count - 1; i++)
             {
@@ -29,7 +30,7 @@ namespace BubbleSort
                 }
             }
 
-            // Return the sorted array 
+
             return $"Before Sorted:{beforeSorted} \n After Sorted:{string.Join(", ", array)}";
         }
     }

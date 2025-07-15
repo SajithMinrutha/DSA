@@ -47,8 +47,6 @@ This project implements the following algorithms:
 - **Interpolation Search**  
   An advanced search algorithm for **uniformly distributed sorted arrays** that estimates the position of the target based on its value relative to the bounds, potentially reducing the number of probes compared to binary search.
 
-- **Bubble Sort**
-
 - **Bubble Sort**  
   Swaps adjacent elements repeatedly.
 
