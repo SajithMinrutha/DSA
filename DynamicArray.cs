@@ -49,7 +49,7 @@ public class DynamicArrayMain
 
         // Search for element
         bool contains15 = intDynamicArray.Contains(15); // true
-
+        
         return $"List contents: {string.Join(", ", intDynamicArray)}\n" +
                $"Element at index 2: {valueAtIndex2}\n" +
                $"Contains 15? {contains15}";
