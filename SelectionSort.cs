@@ -16,11 +16,28 @@ public class SelectionSortMain
     public static string SelectionSortExample()
     {
         List<int> array = new List<int> { 10, 20, 3, 5, 34, 22, 15 };
-        return "";
+
+        SelectionSort(array);
+        return string.Join(",",array);
     }
-    public static void search()
+
+    public static void SelectionSort(List<int> array)
     {
+        for (int i = 0; i < array.Count - 1; i++)
+        {
+            int min = i;
+            for (int j = i + 1; j < array.Count; j++)
+            {
+                if (array[min] > array[j])
+                {
+                    min = j;
+                }
 
+            }
+            int temp = array[i];
+            array[i] = array[min];
+            array[min] = temp;
+        }
+        
     }
-
 }
