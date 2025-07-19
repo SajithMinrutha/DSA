@@ -14,6 +14,7 @@ using BinarySearch;
 using InterpolationSearch;
 using BubbleSort;
 using SelectionSort;
+using InsertionSort;
 
 namespace DSA;
 
@@ -39,7 +40,8 @@ class Program
         string interpolationSearch = InterpolationSearchMain.InterpolationSearchExample();
         string bubbleSort = BubbleSortMain.BubbleSortExample();
         string selectionSort = SelectionSortMain.SelectionSortExample();
+        string insertionSort = InsertionSortMain.InsertionSortMainExample();
 
-        Console.WriteLine(selectionSort);
+        Console.WriteLine(insertionSort);
     }
 }
